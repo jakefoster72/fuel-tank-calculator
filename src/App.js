@@ -1,23 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import InputWithLabel from './InputWithLabel';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <InputWithLabel id="location" label="Location:" value={userData.email} onInputChange={handleInput} ></InputWithLabel>
+      <InputWithLabel id="code-input" type="number" label="Code:" value={userData.code} onInputChange={handleInput} ></InputWithLabel>
     </div>
   );
 }
