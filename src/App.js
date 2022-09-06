@@ -15,7 +15,7 @@ function App() {
 
         <Dropdown.Menu>
           <Dropdown.Item href="#/action-1">Unleaded</Dropdown.Item>
-          <Dropdown.Item href="#/action-2">Diesal</Dropdown.Item>
+          <Dropdown.Item href="#/action-2">Diesel</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
       </div>
