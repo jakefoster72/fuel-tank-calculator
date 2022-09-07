@@ -12,6 +12,7 @@ in order to install the necessary dependencies for the project.
 Other dependencies:
 react-bootstrap
 `npm i react-bootstrap`
+`npm i styled-components`
 
 ## Available Scripts
 
